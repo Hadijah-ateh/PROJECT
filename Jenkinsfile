@@ -7,7 +7,7 @@ pipeline{
         stage('Continous Download') {
 
             steps{
-                git branch: 'master', url: 'https://github.com/Hadijah-ateh/PROJECT.git'
+                git branch: 'main', url: 'https://github.com/Hadijah-ateh/PROJECT.git'
             }
         }
     }
