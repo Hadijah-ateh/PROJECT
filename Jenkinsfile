@@ -22,5 +22,11 @@ pipeline{
                 sh 'mvn test'
             }
         }
+        stage("Continous Build"){
+
+            steps{
+                sh 'mvn clean install'
+            }
+        }
     }
 }
